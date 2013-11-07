@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>唐帅佶-前端开发工程师</title>
+    <meta charset="utf8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link href="/style/reveal.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/style/style.css" media="all" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="https://a.alipayobjects.com/gallery/html5shiv/3.6.1/html5shiv.js"></script>
+    <![endif]-->
+    <script type="text/javascript" charset="utf-8" src="/javascript/sea.js"></script>
+    <script>
+        seajs.config({
+            paths: {
+                'jquery': 'https://a.alipayobjects.com/jquery'
+            },
+            alias: {
+                '$': 'jquery/jquery/1.9.1/jquery'
+            }
+        })
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-state="others">
+            <img class="avatar" src="http://tp2.sinaimg.cn/1691716113/180/1283222691/0" alt="当时我就震惊了">
+            <h3 style="padding-top: 30px">唐帅佶 - 前端开发攻城师</h3>
+        </section>
+        <section data-state="others">
+            <h3>Profile</h3>
+            <ul>
+                <li>从事前端开发工作4年多，具有丰富的前端开发经验和web交互体验感。</li>
+                <li>具备良好的沟通能力、解决问题的能力和学习能力。与相关角色沟通顺畅，能够从前端角度给出专业的解决方案。</li>
+            </ul>
+        </section>
+        <section data-state="others">
+            <h3>Skills</h3>
+            <ul>
+                <li>
+                    日常开发语言：html/html5 css/css3 javascript/jQuery/ajax
+                </li>
+                <li>
+                    扩展技术：nodejs angularjs canvas 均有一定研究和使用
+                </li>
+                <li>
+                    日常开发工具：svn/git WebStorm
+                </li>
+                <li>
+                    具备一定的研发管理经验
+                </li>
+            </ul>
+        </section>
+        <section data-state="others">
+            <h3>Career</h3>
+            <ul id='timeline'>
+                <li class='work'>
+                    <input class='radio' checked id='work4' name='works' type='radio'>
+                    <div class="relative">
+                        <label for='work4'>支付宝</label>
+                        <span class='date'>2011.8</span>
+                        <span class='circle'></span>
+                    </div>
+                    <div class='content'>
+                        <p>支付宝</p>
+                        <p>
+                            从普通的前端开发同学到前端NDC小组的TL，负责支付宝营销活动、运营支撑、数据仓库三个业务域的前端开发工作。技术上进行架构，发展了统一后台交互规范的bizdev.css，和基于支付宝前端体系arale2+spm之上面向开发同学封装的bizdev.js。项目中对组内需求总体进行把控，给出合理的前端解决方案。另外对团队资源分配、质量、效率都使用管理手段进行跟踪、统计、分析等把控。
+                        </p>
+                    </div>
+                </li>
+                <li class='work'>
+                    <input class='radio' id='work3' name='works' type='radio'>
+                    <div class="relative">
+                        <label for='work3'>风雅颂扬文化传播集团</label>
+                        <span class='date'>2010.4</span>
+                        <span class='circle'></span>
+                    </div>
+                    <div class='content'>
+                        <p>风雅颂扬文化传播集团</p>
+                        <p>
+                            对老版宝藏网进行彻底改版，参与每个频道的产品设计，根据产品需求和最终设计图完成前端页面制作，和后台工程师协作实现产品功能，维护及优化网站前端性能，协助网站运营人员为特殊事件和客户制作网络专题。
+                        </p>
+                    </div>
+                </li>
+                <li class='work'>
+                    <input class='radio' id='work2' name='works' type='radio'>
+                    <div class="relative">
+                        <label for='work2'>大连索孚塔克</label>
+                        <span class='date'>2008.4</span>
+                        <span class='circle'></span>
+                    </div>
+                    <div class='content'>
+                        <p>大连索孚塔克</p>
+                        <p>
+                            公司主营对英国外包项目，参与对客户提出的需求、设计产品、并进行一定的交互设计，根据设计图完成页面制作，协助后台技术人员完成产品功能。
+                        </p>
+                    </div>
+                </li>
+                <li class='work'>
+                    <input class='radio' id='work1' name='works' type='radio'>
+                    <div class="relative">
+                        <label for='work1'>大连理工城市学院</label>
+                        <span class='date'>2008.6</span>
+                        <span class='circle'></span>
+                    </div>
+                    <div class='content'>
+                        <p>
+                            大连理工城市学院毕业
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--S 后台系统前端架构 -->
+        <section data-state="works2013" data-background="#000">
+            <section>
+                <h3>前端服务化</h3>
+                <p>
+                    背景：支付宝后台具有大量的业务，例如运营支撑、营销活动、财务、安全、风控、数据仓库，后端开发和前端开发的比例非常大，前端资源成为瓶颈，所以希望能够通过技术、教育培训等手段，统一标准保证质量和操作使用的前提下，提高后端开发同学的前端开发水平，普及前端技术，方便使用。所以需要统一界面和交互标准，并且根据后台业务需求提供面向开发的简单方法。
+                </p>
+            </section>
+            <section>
+                <img src="/img/work9-2.jpg" alt="后台系统前端架构"/>
+                <p>
+                   后台界面统一使用bootstrap3的交互规范，以bootstrap3为基础根据需求沉淀出符合后台业务界面的bizdev.css。
+                </p>
+            </section>
+            <section>
+                <img src="/img/work9-1.jpg" alt="后台系统前端架构"/>
+                <p>
+                    bizdev.js是在使用seajs AMD规范在arale2组件之上做的一层封装，隐藏复杂API，使其绑定在jQuery和jQuery.fn上，将常用简易需求通过简单的方法调用就能实现。利用绑定在dom元素data-auto属性上的值去自动实现界面操作。对ajax做了初始化统一处理，统一数据传输格式，统一文案提示。我目前的工作是对其进行优化和发展，制定了它的发展原则，使其更能够符合后台业务需求，更方便后端开发同学开发前端功能。
+                </p>
+            </section>
+        </section>
+        <!--E 后台系统前端架构 -->
+        <!--S 长连接推送 -->
+        <section data-state="works2013" data-background="#000">
+            <section>
+                <img src="/img/work7-1.jpg" alt="长连接推送"/>
+            </section>
+            <section>
+                <img src="/img/work7-2.jpg" alt="长连接推送"/>
+            </section>
+            <section>
+                <h3>小宝游侠长连接推送</h3>
+                <p>用户在支付宝页面进行操作的时候，通过对用户行为采集经过数据仓库进行计算，向用户主动推送出可能遇到问题的帮助信息。为了减少用户请求数，利用flash localconnect对浏览器tab形成网络节点，只有一个tab会发送长连接请求，当有消息推送的时候向其他tab推送消息，其他tab利用约定好的id看是否是自己的消息，是则展现内容。</p>
+            </section>
+        </section>
+        <!--E 长连接推送 -->
+        <!-- S 商满小计-->
+        <section data-state="works2013" data-background="#000">
+            <section>
+                <img src="/img/work8-1.jpg" alt="商满小计"/>
+            </section>
+            <section>
+                <h3>商满小计</h3>
+                <p>该项目主要提供给商家服务的客满小二记录信息用，是商满小二的工作台，界面精小数据交互复杂，所以尝试性的使用了angularjs，做异步增删改查，减少了大量对DOM的操作。</p>
+            </section>
+        </section>
+        <!-- E 商满小计-->
+        <!-- S 服务首页-->
+        <section data-state="works2012" data-background="#000">
+            <section>
+                <img src="/img/work6-1.jpg" alt="服务首页"/>
+            </section>
+            <section>
+                <h3>服务首页</h3>
+                <p>服务首页是支付宝客服小二在接电话时使用的页面，小二接电话需要较快的页面响应速度，而后台需要调用很多服务模块，同步加载速度很慢，所以采用异步加载模块的方式，在开发模式不变的情况下对jQuery.load()进一步封装的方式进行异步加载。在测试后期，做了前端性能测试分析，页面总体加载速度从过去8s以上减少到了3s内。</p>
+            </section>
+        </section>
+        <!-- E 服务首页-->
+        <!-- S Abtest-->
+        <section data-state="works2011" data-background="#000">
+            <section>
+                <img src="/img/work1-1.jpg" alt="ABtest后台配置页面"/>
+            </section>
+            <section>
+                <h3>ABtest</h3>
+                <p>使用Mashup搭建后台配置页面。Mashup是支付宝基于Extjs框架在浏览器内做的Web可视化前端组件搭建平台，通过一定的拖拽生产XML，由后端根据XML编译成Extjs语句生成富客户端页面。</p>
+                <p>对于简单常用的前端组件例如表单提交、时间控件、分页、表格及表格排序等Mushup拖拽就能胜任，对于复杂的逻辑需要自己手写代码进行设置。</p>
+                <p>在写Extjs最大的感受是他将数据源和结构分离，并且数据源和UI绑定。不好的地方是Extjs是事件驱动的，每操作一个步骤就需要发请求，后端处理请求在发给前端再进行处理，前后端开发耦合度很大，适合具备前后端技能的人来开发。</p>
+                <p>ABtest分流树结构逻辑复杂，对树节点的增删改查都有限定，一个异步生产的页面需要控制到的点非常多，真是一场灾难。不过最后排除万难最终还是完成了项目。</p>
+            </section>
+        </section>
+        <!-- E Abtest-->
+        <!-- S 前端质量平台 -->
+        <section data-state="works2011" data-background="#000">
+            <section>
+                <img src="/img/work2-1.jpg" alt="前端质量平台" />
+            </section>
+            <section>
+                <img src="/img/work2-2.jpg" alt="前端质量平台" />
+            </section>
+            <section>
+                <h3>前端质量平台</h3>
+                <p>视觉、前端页面搭建都由我来完成，使用Less总体统筹Css，图表使用Highchart。</p>
+                <p>Less使Css更具有OOP思想编程，可自定义变量、传参、类调用，概念很好，但使用了以后发现它并不能适应复杂多变的需求，而且还会增加Css冗余代码。</p>
+                <p>另外通过该项目接触到nodejs和MongoDB，会做简单的增删改查操作。</p>
+            </section>
+        </section>
+        <!-- E 前端质量平台 -->
+        <!-- S 宝藏网 -->
+        <section data-state="works2010" data-background="#000">
+            <section>
+                <img src="/img/work3-1.jpg" alt="宝藏网"/>
+            </section>
+            <section>
+                <img src="/img/work3-2.jpg" alt="宝藏网"/>
+            </section>
+            <section>
+                <img src="/img/work3-3.jpg" alt="宝藏网"/>
+            </section>
+            <section>
+                <img src="/img/work3-4.jpg" alt="宝藏网"/>
+            </section>
+            <section>
+                <img src="/img/work3-5.jpg" alt="宝藏网"/>
+            </section>
+            <section>
+                <h3><a href="http://www.baozang.com/" target="_blank">宝藏网</a>10个频道彻底改版</h3>
+                <div style="font-size: 24px">
+                <p>对该产品所有频道Css做了总体架构分层，Html结构按照视觉稿UI有总体规划，结构划分清晰，颗粒度适中，使代码易于维护，语义化标签易于SEO。整个网站基于jQuery开发，写了大量的前端效果jquery plug，使用了大量异步效果。</p>
+                <p>首页：作为全站内容聚合页 力求做到让用户看到我们最新主推的内容 并做好seo 提升各个频道搜索引擎收录排名 </p>
+                <p>资讯：沿袭整合了国内各大门户资讯页面的用户习惯 增加了排行榜、关键字链接和评论等互动功能 </p>
+                <p>拍卖：整合拍卖公司，拍卖公司每季拍卖会和拍卖专场及拍品信息，力求做到好找好看信息全面，为此我们做了<a href="http://auction.baozang.com/" target="_blank">智能搜索</a>、<a href="http://auction.baozang.com/list.html?orgidx=110" target="_blank">按属性关联筛选查询</a>、<a href="http://auction.baozang.com/view.html?aidx=2283&node=2316&n=004845#pos" target="_blank">速览拍卖信息</a>、<a href="http://auction.baozang.com/view/9529.html" target="_blank">放大镜</a>及<a href="http://auction.baozang.com/large/9528.html" target="_blank">高清大图拖拽\自适应窗口大小</a>等功能 </p>
+                <p><a href="http://jd.baozang.com/" target="_blank">鉴定</a>：仿国外收藏网站digg风格，全ajax刷新，<a href="http://jd.baozang.com/item/18432-60877" target="_blank">高清大图仿163新闻图片浏览方式</a>，为用户提供在线鉴定服务，可分为专家鉴定和网友评论两种方式 </p>
+                <p>展览：用展览海报和黑底作为展览首页，用大图体现出展览艺术风格，<a href="http://exhibit.baozang.com/show3038#15" target="_blank">展览内观看高清大图使用了创新用户浏览方式</a>，使用了全屏显示图片并将缩略图放到了屏幕右侧 </p>
+                <p>期刊：根据合作刊物的期数上传文章，显示编辑推荐文章，增加排行榜引导用户点击查看 </p>
+                <p>艺术家：聚合艺术家介绍 作品 近期动态 为其制作个人网站 宣传客户艺术家 </p>
+                <p>《宝藏》栏目官方网站(现已下线)：包含《宝藏》栏目所有完整节目，提供下载分享打分评论顶/踩等互动功能，首页有类似爱奇艺图片轮播，hover五角星打分等功能。</p>
+                </div>
+            </section>
+        </section>
+        <!--  E 宝藏网 -->
+        <!-- S 风雅颂扬 -->
+        <section data-state="works2010" data-background="#000">
+            <section>
+                <img src="/img/work5-2.jpg" alt="风雅颂扬"/>
+            </section>
+            <section>
+                <h3><a href="http://www.fysy.com.cn/" target="_blank">风雅颂扬集团网站</a></h3>
+                <p>虽然那时还没有responsive design，也不知道viewport、flex等新属性，但是那时有流体布局设计。
+                    整站创新地采用了宽屏/满屏/自适应屏幕宽度的流体式布局。
+                    首页使用了自适应屏幕宽度的手风琴效果。
+                </p>
+            </section>
+        </section>
+        <!--  E 风雅颂扬 -->
+    </div>
+    <div class="contact">
+        <a href="mailto:tsjxyz@gmail.com" class="icon icon-email"></a>
+        <a href="http://weibo.com/oneapple" target="_blank" class="icon icon-weibo"></a>
+        <a href="https://github.com/tsj1107" target="_blank" class="icon icon-github"></a>
+    </div>
+    <div id="workdate" class="workdate"></div>
+</div>
+
+<script>
+    seajs.use(['$','reveal'], function($, Reveal){
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            touch: true,
+            overview: true,
+            center: true
+        });
+        Reveal.addEventListener( 'others', function() {
+            $("#workdate").hide();
+        }, false );
+        Reveal.addEventListener( 'works2010', function() {
+            console.log("works2010")
+            $("#workdate").text("2010年作品").show();
+        }, false );
+        Reveal.addEventListener( 'works2011', function() {
+            console.log("works2011")
+            $("#workdate").text("2011年作品").show();
+        }, false );
+        Reveal.addEventListener( 'works2012', function() {
+            console.log("works2012")
+            $("#workdate").text("2012年作品").show();
+        }, false );
+        Reveal.addEventListener( 'works2013', function() {
+            console.log("works2013")
+            $("#workdate").text("2013年作品").show();
+        }, false );
+    })
+</script>
+</body>
+</html>
